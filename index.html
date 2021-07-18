@@ -31,20 +31,17 @@
       <p>Software Developer</p>
       <p>Stony Brook University | Visa | NIT Allahabad</p>
       <p>
-        <a class="fa-icon fa-icon-2x" href="https://facebook.com/" title="">
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://twitter.com/" title="">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://dribbble.com/" title="">
-          <i class="fa fa-dribbble"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/" title="">
+        <a class="fa-icon fa-icon-2x" href="https://linkedin.com/in/shreyash-hisariya/" title="">
           <i class="fa fa-linkedin"></i>
         </a>
-        <a class="fa-icon fa-icon-2x" href="https://vimeo.com/" title="">
-          <i class="fa fa-vimeo"></i>
+        <a class="fa-icon fa-icon-2x" href="https://github.com/shreyash-hisariya" title="">
+          <i class="fa fa-github"></i>
+        </a>
+        <a class="fa-icon fa-icon-2x" href="https://twitter.com/HisariyaShr" title="">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a class="fa-icon fa-icon-2x" href="https://shreyash-hisariya.medium.com/" title="">
+          <i class="fa fa-medium"></i>
         </a>
       </p>
     </div>
@@ -63,11 +60,13 @@
             <h2>About me</h2>
             <div class="row">
               <div class="col-md-4">
-                <p><img src="./assets/images/img-01.jpg" class="img-responsive" alt=""></p>
+                <!-- <p><img src="./assets/images/img-01.jpg" class="img-responsive" alt=""></p> -->
+                <p><img src="./assets/images/shr1.jpg" class="img-responsive" alt=""></p>
               </div>
               <div class="col-md-8">
 
               <p>I am currently pursuing Masters of Science in Computer Science from Stony Brook University in New York, United States.</p>
+              <p>As part of my thesis project, I am currently working in SBU CV Lab on building a assistive robotic arm to make self feeding task possible for people who cant physically feed themselves.</p>
               <p>I have three years of industry experience working in Visa Inc. as a Software Developer. My interests include Distributed Systems, Machine Learning and Computer Vision.</p>
 
               </div>
@@ -107,36 +106,31 @@
               <h3 class="h5 date-title">Visa Inc. - India (Senior Software Developer)</h3>
               <ul>
                 <li>
-                  <p style="color: black; margin-bottom: 0"><b>Data Lake Controller</b></p>
-                   - Implemented anomaly detection framework using Holt Winter's triple exponential smoothing algorithm.<br>
-                   - Spring Boot application to run the detection algorithm on event of new transaction. Data was consumed from HBase and anomalies were  written to mysql for root cause analysis and alerts.<br>
-                   - Weekly, monthly, yearly, holidays and special events as trends for better accuracy. It helped to reduce the percentage of false alerts by 62%.<br>
-                   - Generalized the framework to incorporate other forecasting models like Facebook's Prophet, Moving Average models.<br>
+                  <p style="margin-bottom: 0"><b style="color: black">Data Lake Controller</b>| <i>Java, Spring Boot, Kafka, Docker, Airflow</i></p>
+                   - Designed micro-services for Data Lake Controller which provided a metadata driven implementation to manage components of Visa
+                      Data Platform automating 68% of ETL pipelines.<br>
+                   - Implemented services to auto-generate data pipelines and deploy (avg. time of 2 secs) on distributed schedulers.<br>
+                   - Delivered scheduler and checkpoint micro-services to deploy and run data pipelines (700+) on apache airflow. The service allows a
+user to author, schedule and monitor the data flow and view the dataset lineages.<br>
+                   - Integrated Data Lake with ML Platform allowing data scientists to build, deploy and monitor ML models efficiently.<br>
                 </li>
                   <br>
                 <li>
-                  <p style="color: black; margin-bottom: 0"><b>Data Quality</b></p>
-                   - Implemented anomaly detection framework using Holt Winter's triple exponential smoothing algorithm.<br>
-                   - Spring Boot application to run the detection algorithm on event of new transaction. Data was consumed from HBase and anomalies were  written to mysql for root cause analysis and alerts.<br>
-                   - Weekly, monthly, yearly, holidays and special events as trends for better accuracy. It helped to reduce the percentage of false alerts by 62%.<br>
-                   - Generalized the framework to incorporate other forecasting models like Facebook's Prophet, Moving Average models.<br>
+                  <p style="margin-bottom: 0"><b style="color: black">Data Quality Platform</b>| <i>Java, Spring Boot, MySQL, HDFS, ETL, Grafana</i></p>
+                   - Developed a data management and analytics platform for automating data quality checks across 28 heterogeneous data environments.<br>
+                   - Scaled it to perform more than 50,000 checks across completeness, consistency, and timeliness dimensions of data.<br>
+                   - Spring Boot application allowing users to configure rules, monitor them and generate alerts as part of ETL pipelines.<br>
+                   - Cron based scheduler to execute data quality checks based on the frequency of checks.<br>
                 </li>
                   <br>
                 <li>
-                  <p style="color: black; margin-bottom: 0"><b>Root Cause Analysis</b></p>
-                   - Implemented anomaly detection framework using Holt Winter's triple exponential smoothing algorithm.<br>
-                   - Spring Boot application to run the detection algorithm on event of new transaction. Data was consumed from HBase and anomalies were  written to mysql for root cause analysis and alerts.<br>
-                   - Weekly, monthly, yearly, holidays and special events as trends for better accuracy. It helped to reduce the percentage of false alerts by 62%.<br>
-                   - Generalized the framework to incorporate other forecasting models like Facebook's Prophet, Moving Average models.<br>
+                  <p style="margin-bottom: 0"><b style="color: black">Root Cause Analysis</b>| <i>Python, Time series analysis, Cross-correlation</i></p>
+                   - Formulated a root cause analysis framework to correlate event trends and detect root cause of a quality issue with 72% accuracy.<br>
+                   - Built an event repository of multiple internal and external events affecting a dataset.<br>
+                   - Built a correlation engine to correlate events with an anomaly using a probabilistic model.<br>
+                   - Filed a US Patent for the same - PCT/US2018/066540
                 </li>
                 <br>
-                <li>
-                  <p style="color: black; margin-bottom: 0"><b>Machine Learning Platform</b></p>
-                   - Implemented anomaly detection framework using Holt Winter's triple exponential smoothing algorithm.<br>
-                   - Spring Boot application to run the detection algorithm on event of new transaction. Data was consumed from HBase and anomalies were  written to mysql for root cause analysis and alerts.<br>
-                   - Weekly, monthly, yearly, holidays and special events as trends for better accuracy. It helped to reduce the percentage of false alerts by 62%.<br>
-                   - Generalized the framework to incorporate other forecasting models like Facebook's Prophet, Moving Average models.<br>
-                </li>
               </ul>
             </div>
 
@@ -145,7 +139,7 @@
               <h3 class="h5 date-title">Visa Inc. - India (Summer Intern)</h3>
               <ul>
                 <li>
-                  <p style="color: black; margin-bottom: 0"><b>Forecasting and Anomaly Detection</b></p>
+                  <p style="margin-bottom: 0"><b style="color: black">Forecasting and Anomaly Detection</b>| <i>Java, Spring Boot, Holt Winters, Predictive Analysis, Outlier Detection</i></p>
                    - Implemented anomaly detection framework using Holt Winter's triple exponential smoothing algorithm.<br>
                    - Spring Boot application to run the detection algorithm on event of new transaction. Data was consumed from HBase and anomalies were  written to mysql for root cause analysis and alerts.<br>
                    - Weekly, monthly, yearly, holidays and special events as trends for better accuracy. It helped to reduce the percentage of false alerts by 62%.<br>
@@ -160,70 +154,110 @@
           <div class="card-block">
             <h2>Projects</h2>
             <div class="row">
+
               <div class="col-md-4">
-                <img src="./assets/images/img-02.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Amelia App</h3>
-                <p>June 2017</p>
+                <img src="./assets/images/yolo.png" class="img-responsive" alt="" style="width:300px;height:250px;">
+                <h3 class="h5"></h3>
+                <p style="color:red"><a style="color:blue; font-size: 18px" href="https://github.com/shreyash-hisariya/robotic-arm-vision" title="">Assistive Robotic Arm </a></p>
               </div>
+
               <div class="col-md-4">
-                <img src="./assets/images/img-03.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Portland</h3>
-                <p>March 2017</p>
+                <img src="./assets/images/traffic_detection.png" class="img-responsive" alt="" style="width:300px;height:250px;">
+                <h3 class="h5"></h3>
+                <p style="color:red"><a style="color:blue; font-size: 18px" href="https://github.com/shreyash-hisariya/Traffic-video-detection" title="">Traffic Direction Detection</a></p>
               </div>
+
+
               <div class="col-md-4">
-                <img src="./assets/images/img-04.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Denz for Nilon</h3>
-                <p>Jan 2017</p>
+                <img src="./assets/images/hand_detection.png" class="img-responsive" alt="" style="width:300px;height:250px;">
+                <h3 class="h5"></h3>
+                <p style="color:red"><a style="color:blue; font-size: 18px" href="https://github.com/shreyash-hisariya/hard-negative-mining" title="">Hand Detection in Images</a></p>
               </div>
+
             </div>
           </div>
         </div>
-        
-        <div class="card">
+
+      <div class="card">
           <div class="card-block">
-            <h2>Skills</h2>
+            <h2>Blogs/Links</h2>
             <div class="row">
               <div class="col-md-4">
-                <div class="language-experience">
-                  <h3 class="h5">English  <small>Bilingual</small></h3>
-                </div>
+                <img src="./assets/images/docker.png" class="img-responsive" alt="" style="width:300px;height:250px;">
+                <h3 class="h5"></h3>
+                <p><a style="color:blue; font-size: 18px" href="https://shr-hisariya.medium.com/deploying-deep-learning-models-using-docker-yolo-afd596e56d7a" title="">Deploying deep learning models using Docker/Kubernetes</a></p>
               </div>
+
               <div class="col-md-4">
-                <div class="language-experience">
-                  <h3 class="h5">French  <small>Fluent</small></h3>
-                </div>
+                <img src="./assets/images/few_shot.png" class="img-responsive" alt="" style="width:300px;height:250px;">
+                <h3 class="h5"></h3>
+                <p><a style="color:blue; font-size: 18px" href="https://www.kaggle.com/c/few-shot-count-cse512-spring21/leaderboard" title="">Kaggle : Few Shot Counting Competition (Ranked 3rd)</a></p>
               </div>
-              <div class="col-md-4">
-                <div class="language-experience">
-                  <h3 class="h5">Russian  <small>Beginner</small></h3>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
 
         <div class="card">
           <div class="card-block">
-            <h2>Blogs</h2>
-            <div class="row">
-              <div class="col-md-4">
-                <img src="./assets/images/img-02.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Amelia App</h3>
-                <p>June 2017</p>
-              </div>
-              <div class="col-md-4">
-                <img src="./assets/images/img-03.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Portland</h3>
-                <p>March 2017</p>
-              </div>
-              <div class="col-md-4">
-                <img src="./assets/images/img-04.jpg" class="img-responsive" alt="">
-                <h3 class="h5">Denz for Nilon</h3>
-                <p>Jan 2017</p>
-              </div>
+            <h2>Skills</h2>
+            <div class="work-experience">
+              <h3 class="h5 date-title">Languages : Java, C++, Python, JavaScript/CSS/HTML</h3>
+              <h3 class="h5 date-title">Technologies/Frameworks : Tensorflow, PyTorch, OpenCV, Spring Boot, Spring data and security, Apache Airflow, Apache Kafka, Solr (Apache Lucene),Hadoop, Kubernetes, ROS (Robot operating system)</h3>
+              <h3 class="h5 date-title">Design : Micro-services architecture, Data intensive applications, Event based and metadata managed systems, MVC, REST</h3>
+              <h3 class="h5 date-title">Interests : Distributed Systems, Machine Learning, Data Platform, Predictive Analytics, Computer Vision</h3>
+            
             </div>
           </div>
         </div>
+
+        
+      <!--   <div class="card">
+          <div class="card-block">
+            <h2>Skills</h2> -->
+            <!-- <div class="row"> -->
+              <!-- <div class="col-md-4"> font-family: Oswald, sans-serif;-->
+                <!-- <div>
+                  <h3 class="h5">Languages :</h3><p style="color:black;  font-family: Arial Narrow, sans-serif;font-size: 20px; font-weight: lighter;"> Java, C++, Python, JavaScript/CSS/HTML</p> -->
+                  <!-- <h3 class="center"> Languages : <th style="font-weight:400;">Java, C++, Python, JavaScript/CSS/HTML</th></h3> -->
+                <!-- </div> -->
+              <!-- </div> -->
+              <!-- <div class="col-md-4"> -->
+                <!-- <div> -->
+                 
+                  <!-- <h3 class="center"> Design : Micro-services architecture, Data intensive applications, Event based and metadata managed systems, MVC, REST</h3> -->
+                <!-- </div> -->
+                <!-- <div class="language-experience"> -->
+                  <!-- <h3 style="margin-bottom: 0">Interests :</h3><p style="color:black; font-family: Arial Narrow, sans-serif;  font-size: 20px"> Distributed Systems, Machine Learning, Deep Learning and Neural Networks, Predictive Analytics, Computer Vision</span></p> -->
+                  <!-- <h3 class="center"> Interests : Distributed Systems, Machine Learning, Deep Learning and Neural Networks, Predictive Analytics, Computer Vision</h3> -->
+                <!-- </div> -->
+              <!-- </div> -->
+            <!-- </div> -->
+         <!--  </div>
+        </div> -->
+
+        
+
+        <div class="card">
+          <div class="card-block">
+            <h2>Graduate Coursework</h2>
+            <div class="work-experience">
+              <h3 class="h5 date-title"> <a style="color:blue; font-size: 18px" href="https://www3.cs.stonybrook.edu/~minhhoai/courses/cse512/index.html" title="">CSE 512</a> : Machine Learning</h3>
+              <h3 class="h5 date-title"> <a style="color:blue; font-size: 18px" href="https://www3.cs.stonybrook.edu/~hling/Teaching/21S-527/syllabus-527-S21.pdf" title="">CSE 527</a> : Introduction to Computer Vision</h3>
+              <h3 class="h5 date-title"> <a style="color:blue; font-size: 18px" href="https://www3.cs.stonybrook.edu/~anshul/courses/cse544_s21/" title="">CSE 544</a> : Probability and Statistics for Data Science</h3>
+            
+            </div>
+
+            <h2>Online Courses</h2>
+            <div class="work-experience">
+              <h3 class="h5 date-title"> <a style="color:blue; font-size: 18px" href="https://coursera.org/share/8d707945693e92c5f664f8b1a6c9d488" title="">Coursera : </a>Neural Networks and Deep Learning</h3>
+              <h3 class="h5 date-title"> <a style="color:blue; font-size: 18px" href="https://coursera.org/share/6ac5e2402df7c78a42fbcf95921f2a56" title="">Coursera : </a>Improving Deep Neural Networks</h3>
+              <h3 class="h5 date-title"> <a style="color:blue; font-size: 18px" href="https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv" title="">CSE 231n : </a> Convolutional Neural Networks for Visual Recognition (Stanford)</h3>
+            
+            </div>
+          </div>
+        </div>
+
 
         <!-- <div class="card">
           <div class="card-block">
@@ -273,19 +307,19 @@
             <h2>Social Network</h2>
             <div class="row">
               <div class="col-md-3">
-                <p class="social-buttons"><a href="https://twitter.com/" title=""><span class="social-round-icon fa-icon"><i class="fa fa-twitter"></i></span>@David_Folley</a></p>
+                <p class="social-buttons"><a href="https://twitter.com/HisariyaShr" title=""><span class="social-round-icon fa-icon"><i class="fa fa-twitter"></i></span>@HisariyaShr</a></p>
               </div>
               <div class="col-md-3">
-                <p class="social-buttons"><a href="https://www.linkedin.com/" title=""><span class="social-round-icon fa-icon"><i class="fa fa-linkedin"></i></span>David Folley</a></p>
+                <p class="social-buttons"><a href="https://www.linkedin.com/in/shreyash-hisariya/" title=""><span class="social-round-icon fa-icon"><i class="fa fa-linkedin"></i></span>Shreyash Hisariya</a></p>
               </div>
-              <div class="col-md-3">
+              <!-- <div class="col-md-3">
                 <p class="social-buttons"><a href="https://dribbble.com/" title=""><span class="social-round-icon fa-icon"><i class="fa fa-dribbble"></i></span>David Folley</a></p>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
 
-        <div class="card">
+        <!-- <div class="card">
           <div class="card-block">
             <h2>Contact</h2>
             <form action="" class="reveal-content">
@@ -303,7 +337,7 @@
               </div> 
             </form>
           </div>
-        </div>
+        </div> -->
        
      </div>
    </div>
@@ -311,7 +345,7 @@
 
 </main>
 <footer class="footer-container white-text-container text-center">
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="col-xs-12">
         <p><img src="./assets/images/mashup-icon.svg" alt=""></p>
@@ -337,7 +371,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
 </footer>
 
 <script>
